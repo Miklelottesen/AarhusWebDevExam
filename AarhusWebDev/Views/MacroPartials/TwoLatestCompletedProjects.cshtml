@@ -1,0 +1,41 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+
+@{
+	var selection = CurrentPage.Site().FirstChild("projectsPage").Children("projectItem").Where("Visible").OrderBy("UpdateDate desc");
+}
+<h2>Our latest releases</h2>
+<div class="row">
+	@{int inclCount = 0;}
+	@if(Members.GetCurrentLoginStatus().IsLoggedIn)
+	{
+		foreach(var item in selection){
+			if(inclCount <=2 && item.status == "Released")
+			{
+				<div class="col-md-6 articleThumb">
+					<a class="ajax-link" href="@item.Url">
+						<h3>@item.Name</h3>
+						@{int imgID = Int32.Parse(Convert.ToString(item.image)); }	
+						<img class="img-responsive" src="@Umbraco.Media(imgID).umbracoFile"/>
+					</a>
+				</div>
+					inclCount = inclCount+1;
+			}
+		}
+	}
+	else 
+	{
+		foreach(var item in selection){
+			if(inclCount <=2 && item.status == "Released")
+			{
+				<div class="col-md-6 articleThumb noHover">
+					<h3>@item.Name</h3>
+					@{int imgID = Int32.Parse(Convert.ToString(item.image)); }	
+					<img class="img-responsive" src="@Umbraco.Media(imgID).umbracoFile"/>
+				</div>
+					inclCount = inclCount+1;
+			}
+		}
+	}
+</div>
+

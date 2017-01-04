@@ -1,0 +1,10 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.ArticlesPage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	// Only use Master layout when not ajax
+	Layout = (Request.Params["ajax"] == "true") ? null : "Master.cshtml";
+}
+<h1>@Umbraco.Field("heading")</h1>
+@Umbraco.RenderMacro("ArticlesListOfChildren")
+@{int bgID = Int32.Parse(Convert.ToString(Umbraco.Field("backgroundImage", recursive: true))); }
+<input type="hidden" id="background-res" value="@Umbraco.Media(bgID).umbracoFile" data-pageurl="@CurrentPage.Url">

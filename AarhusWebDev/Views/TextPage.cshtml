@@ -1,0 +1,10 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.TextPage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	// Only use Master layout when not ajax
+	Layout = (Request.Params["ajax"] == "true") ? null : "Master.cshtml";
+}
+<h1>Access denied</h1>
+<p>Only active members have access to this page. Sorry :(</p>
+@{int bgID = Int32.Parse(Convert.ToString(Umbraco.Field("backgroundImage", recursive: true))); }
+<input type="hidden" id="background-res" value="@Umbraco.Media(bgID).umbracoFile" data-pageurl="@CurrentPage.Url">

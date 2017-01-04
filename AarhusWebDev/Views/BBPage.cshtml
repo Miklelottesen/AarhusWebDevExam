@@ -1,0 +1,24 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.BBpage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	// Only use Master layout when not ajax
+	Layout = (Request.Params["ajax"] == "true") ? null : "Master.cshtml";
+}
+@{
+        <h1>@CurrentPage.Name</h1>
+		if(!Members.GetCurrentLoginStatus().IsLoggedIn)
+		{
+			<p>Login to post messages</p>
+		}
+		else
+		{
+			<h2>Submit message</h2>
+        	<div>
+            	@Html.Action("Index", "BBFormSurface")
+        	</div>
+		}
+		<h2>Messages</h2>
+		@Umbraco.RenderMacro("ShowBBMessages")
+}
+@{int bgID = Int32.Parse(Convert.ToString(Umbraco.Field("backgroundImage", recursive: true))); }
+<input type="hidden" id="background-res" value="@Umbraco.Media(bgID).umbracoFile" data-pageurl="@CurrentPage.Url">

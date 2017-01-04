@@ -1,0 +1,20 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using System.Web.Mvc.Html
+@using ClientDependency.Core.Mvc
+@using Umbraco.Web
+@using Umbraco.Web.Models
+@using Umbraco.Web.Controllers
+@{
+	// Only use Master layout when not ajax
+	Layout = (Request.Params["ajax"] == "true") ? null : "Master.cshtml";
+}
+@Html.RenderJsHere()
+@{
+	String partialName = "logout";
+	if(!Members.GetCurrentLoginStatus().IsLoggedIn){
+		partialName = "login";
+	}
+}
+@Html.Partial(partialName)
+@{int bgID = Int32.Parse(Convert.ToString(Umbraco.Field("backgroundImage", recursive: true))); }
+<input type="hidden" id="background-res" value="@Umbraco.Media(bgID).umbracoFile" data-pageurl="@CurrentPage.Url">

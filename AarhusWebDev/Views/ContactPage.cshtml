@@ -1,0 +1,19 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	// Only use Master layout when not ajax
+	Layout = (Request.Params["ajax"] == "true") ? null : "Master.cshtml";
+}
+@{
+    if(TempData["Success"] != null) {
+        <h1>Success!</h1>
+        <p>Your mail was successfully delivered! We'll get back to you shortly.</p>
+    }
+    else {
+        <h1>@CurrentPage.Name</h1>
+        <div>
+            @Html.Action("Index", "ContactFormSurface")
+        </div>
+    }
+}
+@{int bgID = Int32.Parse(Convert.ToString(Umbraco.Field("backgroundImage", recursive: true))); }
+<input type="hidden" id="background-res" value="@Umbraco.Media(bgID).umbracoFile" data-pageurl="@CurrentPage.Url">

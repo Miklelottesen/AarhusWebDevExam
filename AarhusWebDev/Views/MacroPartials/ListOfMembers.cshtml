@@ -1,0 +1,41 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+	var memberService = ApplicationContext.Current.Services.MemberService;
+	
+	var activeMembers = memberService.GetMembersByGroup("Active");
+	var prospectMembers = memberService.GetMembersByGroup("Prospect");
+}
+<h2>Active members</h2>
+@foreach(var m in activeMembers)
+{
+	<div class="row bottomPadding">
+		<div class="col-md-4">
+			@{
+        		string fullPath = m.GetValue("photo").ToString();
+        		string[] substrings = fullPath.Split(',');
+        		string srcString = substrings[2];
+        		string[] srcSubStrings = srcString.Split(':');
+        		string srcPath = srcSubStrings[1].Replace("\"", "");
+        		srcPath = srcPath.Replace("}", "");
+    		}
+       		<img class="img-responsive" src="@srcPath" />
+		</div>
+		<div class="col-md-8">
+			<h3>@m.GetValue("firstName") @m.GetValue("lastName")</h3>
+			<p>@m.GetValue("address")</p>
+			<p>@m.GetValue("zip") @m.GetValue("city")</p>
+			<p>Mobile: @m.GetValue("mobile")</p>
+		</div>
+	</div>
+}
+<h2>Prospects</h2>
+@foreach(var m in prospectMembers)
+{
+	<div class="row bottomPadding">
+		<div class="col-md-12">
+			<h3>@m.GetValue("firstName") @m.GetValue("lastName")</h3>
+			<p>Mobile: @m.GetValue("mobile")</p>
+		</div>
+	</div>
+	<hr>
+}

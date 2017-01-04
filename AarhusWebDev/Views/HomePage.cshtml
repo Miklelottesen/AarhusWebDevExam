@@ -1,0 +1,13 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.HomePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	// Only use Master layout when not ajax
+	Layout = (Request.Params["ajax"] == "true") ? null : "Master.cshtml";
+}
+<div class="row text-center">
+	<h1>Welcome to the Aarhus Web Developers Network!</h1>	
+	<p>It is a marvel to behold what happens, when an entire city of developers join up and collaborate!</p>
+</div>
+@Umbraco.RenderMacro("TwoLatestCompletedProjects")
+@{int bgID = Int32.Parse(Convert.ToString(Umbraco.Field("backgroundImage", recursive: true))); }
+<input type="hidden" id="background-res" value="@Umbraco.Media(bgID).umbracoFile" data-pageurl="@CurrentPage.Url">

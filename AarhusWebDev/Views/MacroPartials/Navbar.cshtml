@@ -1,0 +1,71 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+
+@*
+    This snippet displays a list of links of the pages immediately under the top-most page in the content tree.
+    This is the home page for a standard website.
+    It also highlights the current active page/section in the navigation with the css class "current".
+*@
+
+@{ var selection = CurrentPage.Site().Children.Where("Visible"); }
+
+<nav class="navbar navbar-custom navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        Menu <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand ajax-link" href="@Umbraco.TypedContentAtRoot().First().Url">
+		<i class="fa fa-dot-circle-o"></i> Aarhus <span class="light">Web Dev</span>
+	  </a>
+    </div>
+		<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+      		<ul class="nav navbar-nav">
+				<li class="nav-item @(CurrentPage.Name == Umbraco.TypedContentAtRoot().First().Name ? "active" : null)">
+					<a class="nav-link ajax-link" href="@Umbraco.TypedContentAtRoot().First().Url">@Umbraco.TypedContentAtRoot().First().Name</a>
+				</li>
+				@{ var projects = selection; }
+    			@foreach (var item in selection)
+    			{
+					if((@item.Name != "Projects" && @item.Name != "Members" && !Members.GetCurrentLoginStatus().IsLoggedIn) || (@item.Name != "Projects" && Members.GetCurrentLoginStatus().IsLoggedIn))
+					{
+        				<li class="@(item.IsAncestorOrSelf(CurrentPage) ? "active" : null)">
+            				<a class="nav-link ajax-link" href="@item.Url">@item.Name</a>
+        				</li>
+					}
+					if(@item.Name == "Projects")
+					{
+						projects = item.Children();
+					}
+					
+    			}
+				@if(@Members.GetCurrentLoginStatus().IsLoggedIn)
+					{
+						<li id="projectsDD" class="dropdown nav-item @(CurrentPage.Name == "Projects" ? "active" : null)">
+							<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+          					<ul class="dropdown-menu">
+            					<li class="ddLink @(CurrentPage.Name == "Projects" ? "active" : null)">
+									<a class="ajax-link" href="/projects/">All Projects</a>
+								</li>
+            					<li role="separator" class="divider"></li>
+            					@foreach(var sub in projects)
+								{
+									if(@sub.status == "Released")
+									{
+										<li class="ddLink @(sub.Url == CurrentPage.Url ? "active" : null)">
+											<a class="ajax-link" href="@sub.Url">@sub.Name</a>
+										</li>
+									}
+								}
+          					</ul>
+						</li>
+					}
+				@{ String loginText = (Members.GetCurrentLoginStatus().IsLoggedIn) ? "Log out" : "Login"; }
+				<li class="nav-item @(CurrentPage.Name == "Login" ? "active" : null)">
+					<a id="loginLink" class="nav-link ajax-link" href="/login/">@loginText</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

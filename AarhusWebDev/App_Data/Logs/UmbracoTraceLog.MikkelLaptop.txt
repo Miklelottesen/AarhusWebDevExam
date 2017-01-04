@@ -1,0 +1,147 @@
+﻿ 2016-10-12 11:48:31,498 [P13764/D48/T91] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username miklelottesen@gmail.com from IP address ::1
+ 2016-10-12 11:48:31,501 [P13764/D48/T91] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: miklelottesen@gmail.com logged in from IP address ::1
+ 2016-10-12 11:54:48,198 [P13764/D48/T47] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username prospect from IP address ::1
+ 2016-10-12 12:08:08,594 [P13764/D48/T117] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username miklelottesen@gmail.com from IP address ::1
+ 2016-10-12 12:08:08,595 [P13764/D48/T117] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: miklelottesen@gmail.com logged in from IP address ::1
+ 2016-10-12 12:11:37,328 [P13764/D48/T10] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username activeuser from IP address ::1
+ 2016-10-12 12:13:41,176 [P13764/D48/T127] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Message Board' with Id '1095' has been published.
+ 2016-10-12 12:13:45,424 [P13764/D48/T9] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:13:45,450 [P13764/D48/T9] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-12 12:14:15,578 [P13764/D48/T128] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Members' with Id '1121' has been published.
+ 2016-10-12 12:14:19,919 [P13764/D48/T14] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:14:19,957 [P13764/D48/T14] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-12 12:27:40,009 [P13764/D48/T42] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: miklelottesen@gmail.com, IP Address: ::1
+ 2016-10-12 12:30:58,131 [P13764/D48/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username miklelottesen@gmail.com from IP address ::1
+ 2016-10-12 12:30:58,131 [P13764/D48/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: miklelottesen@gmail.com logged in from IP address ::1
+ 2016-10-12 12:36:13,010 [P13764/D48/T124] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unity - The best free game engine?' with Id '0' has been published.
+ 2016-10-12 12:36:17,276 [P13764/D48/T102] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:36:17,310 [P13764/D48/T102] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-12 12:38:56,256 [P13764/D48/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '6 things you should know about Node JS' with Id '0' has been published.
+ 2016-10-12 12:39:00,386 [P13764/D48/T97] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:39:00,405 [P13764/D48/T97] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-12 12:40:42,783 [P13764/D48/T128] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unity - The best free game engine?' with Id '1127' has been published.
+ 2016-10-12 12:40:47,045 [P13764/D48/T97] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:40:47,072 [P13764/D48/T97] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-12 12:42:26,770 [P13764/D48/T91] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:42:26,811 [P13764/D48/T91] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-12 12:42:38,606 [P13764/D48/T48] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:42:38,687 [P13764/D48/T48] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-12 12:43:55,025 [P13764/D48/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-10-12 12:43:55,025 [P13764/D48/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-10-12 12:43:55,032 [P13764/D48/T111] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-10-12 12:43:55,047 [P13764/D48/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-10-12 12:43:55,048 [P13764/D48/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-10-12 12:43:55,048 [P13764/D48/T128] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-10-12 12:43:55,145 [P13764/D48/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-10-12 12:43:55,145 [P13764/D48/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-10-12 12:43:55,145 [P13764/D48/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-10-12 12:43:55,145 [P13764/D48/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-10-12 12:43:55,145 [P13764/D48/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-10-12 12:43:55,145 [P13764/D48/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-10-12 12:43:55,146 [P13764/D48/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-10-12 12:43:55,146 [P13764/D48/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-10-12 12:43:55,146 [P13764/D48/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-10-12 12:44:25,164 [P13764/D48/T5] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2016-10-12 12:44:35,150 [P13764/D49/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on MIKKELLAPTOP
+ 2016-10-12 12:44:35,289 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-12 12:44:35,304 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 15ms)
+ 2016-10-12 12:44:35,401 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-12 12:44:35,748 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 346ms)
+ 2016-10-12 12:44:35,807 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-12 12:44:35,845 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 37ms)
+ 2016-10-12 12:44:35,847 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-12 12:44:35,894 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 47ms)
+ 2016-10-12 12:44:35,983 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-12 12:44:36,056 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 72ms)
+ 2016-10-12 12:44:36,059 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-12 12:44:36,113 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 54ms)
+ 2016-10-12 12:44:36,261 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-12 12:44:36,316 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 55ms)
+ 2016-10-12 12:44:36,322 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-12 12:44:36,373 [P13764/D49/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 51ms)
+ 2016-10-12 12:44:40,486 [P13764/D49/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-12 12:44:40,856 [P13764/D49/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-12 12:44:40,862 [P13764/D49/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-12 12:44:40,905 [P13764/D49/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-12 12:44:41,087 [P13764/D49/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-12 12:44:41,091 [P13764/D49/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-12 12:44:41,176 [P13764/D49/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6112ms)
+ 2016-10-12 12:44:41,651 [P13764/D49/T5] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:30894/umbraco (UmbracoModule request)
+ 2016-10-12 12:44:41,657 [P13764/D49/T47] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:30894/umbraco (UmbracoModule request)
+ 2016-10-12 12:44:42,280 [P13764/D49/T5] INFO  umbraco.content - Load Xml from file...
+ 2016-10-12 12:44:42,283 [P13764/D49/T5] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-12 12:44:43,113 [P13764/D49/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-12 12:44:43,188 [P13764/D49/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 75ms)
+ 2016-10-12 12:45:05,895 [P13764/D49/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-12 12:45:05,983 [P13764/D49/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 87ms)
+ 2016-10-12 12:45:06,820 [P13764/D49/T91] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-10-12 12:45:06,886 [P13764/D49/T91] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 66ms)
+ 2016-10-12 12:45:28,827 [P13764/D49/T5] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-12 12:45:43,944 [P13764/D49/T97] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-11 12:45:43
+ 2016-10-12 12:45:45,486 [P13764/D49/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
+ 2016-10-12 12:45:45,514 [P13764/D49/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 28ms)
+ 2016-10-12 12:45:56,515 [P13764/D49/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-10-12 12:45:56,588 [P13764/D49/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 73ms)
+ 2016-10-12 12:45:59,696 [P13764/D49/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-12 12:46:34,489 [P13764/D49/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Umbraco vs WordPress' with Id '1068' has been published.
+ 2016-10-12 12:46:34,973 [P13764/D49/T52] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-10-12 12:46:35,063 [P13764/D49/T52] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 90ms)
+ 2016-10-12 12:46:39,784 [P13764/D49/T105] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:46:39,834 [P13764/D49/T105] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-12 12:46:41,384 [P13764/D49/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unity - The best free game engine?' with Id '1127' has been published.
+ 2016-10-12 12:46:45,572 [P13764/D49/T126] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:46:45,629 [P13764/D49/T126] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-12 12:46:49,955 [P13764/D49/T5] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '6 things you should know about Node JS' with Id '1129' has been published.
+ 2016-10-12 12:46:54,117 [P13764/D49/T52] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:46:54,160 [P13764/D49/T52] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-12 12:47:00,734 [P13764/D49/T5] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-12 12:48:34,973 [P13764/D49/T128] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Umbraco vs WordPress - Which is best?' with Id '1068' has been published.
+ 2016-10-12 12:48:39,267 [P13764/D49/T126] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:48:39,349 [P13764/D49/T126] INFO  umbraco.content - Saved Xml to file.
+ 2016-10-12 12:48:45,409 [P13764/D49/T105] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-12 12:50:24,384 [P13764/D49/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-10-12 12:50:24,497 [P13764/D49/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 113ms)
+ 2016-10-12 12:50:24,509 [P13764/D49/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-12 12:50:24,598 [P13764/D49/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 89ms)
+ 2016-10-12 12:52:12,725 [P13764/D49/T91] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1113
+ 2016-10-12 12:52:46,433 [P13764/D49/T115] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1113
+ 2016-10-12 12:53:49,650 [P13764/D49/T91] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1111
+ 2016-10-12 12:54:34,828 [P13764/D49/T91] INFO  UmbracoExamine.DataServices.UmbracoLogService - Field "email" is listed multiple times in the index set "InternalMemberIndexSet". Please ensure all names are unique, Provider=InternalMemberIndexer, NodeId=1112
+ 2016-10-12 12:58:03,529 [P13764/D49/T78] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username activeuser from IP address ::1
+ 2016-10-12 12:58:36,935 [P13764/D49/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Message Board' with Id '1095' has been published.
+ 2016-10-12 12:58:41,263 [P13764/D49/T52] INFO  umbraco.content - Save Xml to file...
+ 2016-10-12 12:58:41,312 [P13764/D49/T52] INFO  umbraco.content - Saved Xml to file.
